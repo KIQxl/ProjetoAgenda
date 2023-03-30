@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Agenda</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="container-cadastro">
+                <div class="seccao-cadastro">
+                    <h1 class="nome-agenda">Agenda</h1>
+
+                    <form class="cadastro-evento" id="cadastro-evento">
+
+                        <label for="cadastro-data">Data do evento</label>
+                        <input type="date" name="cadastro-data" id="dataEvento">
+
+                        <label for="cadastro-titulo">Nome do evento</label>
+                        <input type="text" name="cadastro-titulo" class="cadastro-titulo" id="nomeEvento" placeholder="Nome do evento até 50 caractéres">
+
+                        <label for="cadastro-descricao">Descrição do evento</label>
+                        <textarea name="cadastro-descricao" class="cadastro-descricao" id="descricaoEvento" placeholder="Descrição do evento até 400 caractéres"></textarea>
+
+                    </form>
+
+                    <button class="btn-agendar" id="btn-agendar">Agendar</button>
+                </div>    
+                    
+            </div>
+
+            <div class="container-eventos" id="muralEventos">
+
+            </div>
+        </div>
+
+        <dialog class="alterar" id="alterar">
+
+            <div class="btn-fechar">
+                <button  class="close" id="close">X</button>
+            </div>
+
+            <div class="form">
+                <form class="formAlt" id="formAlt">
+                    <div  class="popup">
+                        
+                        <label for="altDate">Data do evento</label>
+                        <input type="date" name="altDate" id="altDate">
+        
+                        <label for="altName">Nome do evento</label>
+                        <input type="text" name="altName" class="altName" id="altName" placeholder="Nome do evento até 50 caractéres">
+        
+                        <label for="altDescr">Descrição do evento</label>
+                        <textarea name="altDescr" class="altDescr" id="altDescr" placeholder="Descrição do evento até 400 caractéres"></textarea>
+                        </div>
+                </form>
+            </div>
+
+            <div class="btns">
+                    
+                <button class="btn-delete" id="btn-delete">Deletar</button>
+                <button class="btn-put" id="btn-put">Alterar</button>
+
+            </div>
+            
+
+
+        </dialog>
+    </main>
+    <script src="../js/carregaNotas.js"></script>
+    <script src="../js/cadastro.js"></script>
+    <script src="../js/altera.js"></script>
+
+    
+</body>
+</html>
+

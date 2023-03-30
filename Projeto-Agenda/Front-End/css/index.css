@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Alkatra";
+}
+
+
+
+.container{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 1600px;
+    height: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.container-cadastro{
+    width: 400px;
+    height: 480px;
+    background-color: #ff5b46;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #802e23;
+}
+
+.seccao-cadastro{
+    width: 320px;
+    height: 432px;
+    margin: auto;
+    color: #fff;
+}
+
+.nome-agenda{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+
+.cadastro-evento{
+    margin-top: 5px;
+}
+
+.cadastro-evento label, input, textarea{
+    display: block;
+    font-size: 14px;
+    border: none;
+}
+
+input{
+    margin-bottom: 4px;
+    padding-left: 5px;
+}
+
+.cadastro-titulo{
+    width: 315px;
+}
+
+.cadastro-descricao{
+    width: 304px;
+    height: 176px;
+    padding: 5px;
+}
+
+.cadastro-descricao::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #802e23;
+}
+
+.cadastro-descricao::-webkit-scrollbar{
+    width: 2px;
+}
+
+.container-eventos{
+    width: 720px;
+    height: 528px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    border-radius: 8px;
+    background-color: #ff5b46;
+    box-shadow: 3px 3px 10px #802e23;
+    padding: 3px;
+}
+
+.container-eventos::-webkit-scrollbar{
+    width: 2px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.container-eventos::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+}
+
+.evento{
+    box-sizing: border-box;
+    width: 156.8px;
+    background-color: #fff;
+    margin: 10px;
+    transition: 0.s;
+    box-shadow: 3px 3px 10px #802e23;
+    cursor: pointer;
+    overflow: hidden;
+    height: 280px;
+}
+
+
+.titulo{
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #ff5b46;
+    color: #fff;
+}
+
+
+.data{
+    font-size: 15px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #ff5b46;
+    color: #fff;
+}
+
+.descr{
+    height: 195px;
+    text-align: center;
+    overflow: auto;
+    margin: 3px;
+    font-size: 13px;
+}
+
+.descr::-webkit-scrollbar{
+    width: 2px;
+    height: 3px;
+}
+
+.descr::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #ff532b;
+}
+
+.btn-agendar{
+    background-color: #802e23;
+    color: #fff;
+    margin-top: 15px;
+    position:relative;
+    width: 160px;
+    height: 24px;
+    margin-left: 80px;
+    border: none;
+    box-shadow: 3px 3px 10px #802e23;
+}
+
+.alterar{
+    background-color:#ff5b46 ;
+    min-width: 310px;
+    min-height: 450px;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #802e23;
+}
+
+.popup{
+    width: 255px;
+    height: 350px;
+    margin: auto;
+}
+
+
+.altName{
+    text-align: center;
+    width: 250px;
+}
+
+.altDescr{
+    width: 250px;
+    padding: 3px;
+    height: 200px;
+}
+
+.altDescr::-webkit-scrollbar{
+    width: 2px;
+    height: 3px;
+}
+
+.altDescr::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.form{
+    margin-top: 10px;
+}
+
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.btn-delete, .btn-put{
+    background-color: #802e23;
+    color: #fff;
+    width: 90px;
+    height: 24px;
+    border: none;
+    box-shadow: 3px 3px 10px #802e23;
+}
+
+.btn-fechar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close{
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 24px;
+    height: 24px;
+    font-weight:bolder;
+    background-color: #802e23;
+    border: none;
+    color: #fff;
+    box-shadow: 3px 3px 70px #fff;
+    text-decoration: none;
+}
+
+
+
+
