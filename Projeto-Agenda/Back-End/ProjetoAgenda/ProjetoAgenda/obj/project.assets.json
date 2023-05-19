@@ -1291,11 +1291,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#\\ProjetoAgenda\\Back-End\\ProjetoAgenda\\ProjetoAgenda\\ProjetoAgenda.csproj",
+      "projectUniqueName": "C:\\C#\\ProjetoAgenda\\ProjetoAgenda\\Projeto-Agenda\\Back-End\\ProjetoAgenda\\ProjetoAgenda\\ProjetoAgenda.csproj",
       "projectName": "ProjetoAgenda",
-      "projectPath": "C:\\C#\\ProjetoAgenda\\Back-End\\ProjetoAgenda\\ProjetoAgenda\\ProjetoAgenda.csproj",
+      "projectPath": "C:\\C#\\ProjetoAgenda\\ProjetoAgenda\\Projeto-Agenda\\Back-End\\ProjetoAgenda\\ProjetoAgenda\\ProjetoAgenda.csproj",
       "packagesPath": "C:\\Users\\kaiqu\\.nuget\\packages\\",
-      "outputPath": "C:\\C#\\ProjetoAgenda\\Back-End\\ProjetoAgenda\\ProjetoAgenda\\obj\\",
+      "outputPath": "C:\\C#\\ProjetoAgenda\\ProjetoAgenda\\Projeto-Agenda\\Back-End\\ProjetoAgenda\\ProjetoAgenda\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kaiqu\\AppData\\Roaming\\NuGet\\NuGet.Config",

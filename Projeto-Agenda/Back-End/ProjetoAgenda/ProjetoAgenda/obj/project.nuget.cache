@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CApf0t6cp5aw5vJvbGmvxqAfp+b4WDQENKWLXCZtXoqXy2zbz5nQ35E7tDu3wsP928+RFQoVh2YqZdjUsyZ4pA==",
+  "dgSpecHash": "+rsB0Im25l/CqpE/ynGEyi4rRKLVhJOfOM9HWZ8MENmPUcO/pTuoDnGISvEiekuF1IZ0GfsfzsBMpVgGOuOD6g==",
   "success": true,
-  "projectFilePath": "C:\\C#\\ProjetoAgenda\\Back-End\\ProjetoAgenda\\ProjetoAgenda\\ProjetoAgenda.csproj",
+  "projectFilePath": "C:\\C#\\ProjetoAgenda\\ProjetoAgenda\\Projeto-Agenda\\Back-End\\ProjetoAgenda\\ProjetoAgenda\\ProjetoAgenda.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaiqu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\kaiqu\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",

@@ -10,6 +10,4 @@ public interface IEvento
     Task<EventosModel> PutEvento(EventosModel evento, int id);
     Task<bool> DeleteEvento(int id);
 
-
-
 }

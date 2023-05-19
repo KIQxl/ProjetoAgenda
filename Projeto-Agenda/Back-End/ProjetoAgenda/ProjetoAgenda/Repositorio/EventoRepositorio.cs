@@ -26,7 +26,7 @@ public class EventoRepositorio : IEvento
 
     public async Task<EventosModel> PostEvento(EventosModel evento)
     {
-        _context.Eventos.Add(evento);
+        _context.Eventos.AddAsync(evento);
         _context.SaveChanges();
 
         return evento;
